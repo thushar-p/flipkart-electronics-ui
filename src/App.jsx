@@ -1,12 +1,12 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 import Header from './Components/util/Header'
-import Login from './Components/util/Login'
 
 function App() {
   return (
     <div>
       <Header/>
-      {/* <Login/> */}
+      <Outlet/>
     </div>
   )
 }
