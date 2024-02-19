@@ -16,7 +16,7 @@ const navs = [
     // public routes
     {
         "path" : "/seller/register",
-        "element" : <Register role={"SELLER"}/> ,
+        "element" : <Register role={"SELLER"}/>,
         "authenticationRequired" : false,
         "isVisibleAfterAuthentication" : false,
         "role" : "ALL"
@@ -28,7 +28,7 @@ const navs = [
         "isVisibleAfterAuthentication" : false,
         "role" : "ALL"
     },
-    {
+    {       
         "path" : "/login",
         "element" : <Login/>,
         "authenticationRequired" : false,
@@ -85,8 +85,7 @@ const navs = [
         "path" : "/wishlist",
         "element" : <Wishlist/>,
         "authenticationRequired" : true,
-        "isVisibleAfterAuthentication" : true,
-        "role" : "CUSTOMER"
+        "isVisibleAfterAuthentication" : true
     },
     {
         "path" : "/orders",
